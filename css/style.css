@@ -6,3 +6,7 @@
 .h100 {
     height: 100px;
 }
+
+.link-hover-primary:hover {
+    color: #b0b0b0 !important;
+}
