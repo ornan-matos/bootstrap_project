@@ -1,4 +1,3 @@
-Claro! Aqui está um modelo de `README.md` para o repositório [ornan-matos/bootstrap\_project](https://github.com/ornan-matos/bootstrap_project), com ênfase nas características de responsividade e uso do Bootstrap 5, além de seções para prints da página:
 
 ---
 
