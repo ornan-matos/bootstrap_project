@@ -1,12 +1,50 @@
 
-.h400 {
-    height: 400px;
-}
-
-.h100 {
-    height: 100px;
-}
-
 .link-hover-primary:hover {
-    color: #b0b0b0 !important;
+    color: #73aa06 !important;
+}
+
+.text-lime-green {
+    color: #91d114;
+}
+
+.button-lime-green:hover {
+    background-color: #91d114 !important;
+    color: #ffffff;
+}
+.button-plans{
+    background-color: #212121;
+    color: #ffffff;
+}
+
+.button-plans:hover {
+    background-color: #454545 !important;
+    color: #ffffff;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+
+.card .icon {
+    font-size: 3rem;
+    color: #262626;
+}
+
+.card-text {
+    color: gray;
+}
+
+.card:hover {
+    background-color: #82bb00;
+    color: #fff;
+}
+
+.card {
+    transition: all 0.2s;
+}
+
+.card:hover .icon,
+.card:hover .card-text {
+    color: #fff;
 }
