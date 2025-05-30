@@ -2,191 +2,295 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,  initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,  initial-scale=1">
 
-  <!--Icons Bootstrap - CDN-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<!--Icons Bootstrap - CDN-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-  <!--CSS Bootstrap - CDN-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+	<!--CSS Bootstrap - CDN-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+	      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 
-  <!--Javascript Bootstrap - CDN-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-          crossorigin="anonymous"></script>
+	<!--Javascript Bootstrap - CDN-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+	        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+	        crossorigin="anonymous"></script>
 
-  <!--CSS Local-->
-  <link rel="stylesheet" href="css/style.css">
+	<!--CSS Local-->
+	<link rel="stylesheet" href="css/style.css">
 
-  <title>NeuroFocus</title>
+	<title>NeuroFocus</title>
 
 </head>
 
 <body>
 
 
-  <!-- Cabeçalho - Inicio -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
-    <div class="container">
-      <!-- Logotipo -->
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png" alt="Logo" width="150" height="40" class="d-inline-block align-middle">
-      </a>
+	<!-- Cabeçalho - Inicio -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top shadow-sm">
+		<div class="container">
+			<!-- Logotipo -->
+			<a class="navbar-brand" href="#">
+				<img src="img/logo.png" alt="Logo" width="150" height="40" class="d-inline-block align-middle">
+			</a>
 
-      <!-- Botão hambúrguer -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
-              aria-controls="navbarMenu" aria-expanded="false" aria-label="Alternar navegação">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+			<!-- Botão hambúrguer -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+			        aria-controls="navbarMenu" aria-expanded="false" aria-label="Alternar navegação">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-      <!-- Itens do menu + Botão e Campo de Busca -->
-      <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
-          <li class="nav-item link-hover-primary">
-            <a class="nav-link active" aria-current="page" href="#">Início</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle link-hover-primary" data-bs-toggle="dropdown" href="#">Planos</a>
-            <ul class="dropdown-menu dropdown-menu-start">
-              <li><a href="#" class="dropdown-item">Grátis</a></li>
-              <li><a href="#" class="dropdown-item">Pro</a></li>
-              <li><a href="#" class="dropdown-item">Premium</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link link-hover-primary" href="#">Preços</a></li>
-          <li class="nav-item"><a class="nav-link link-hover-primary" href="#">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link link-hover-primary" href="#">Contato</a></li>
-        </ul>
+			<!-- Itens do menu + Botão e Campo de Busca -->
+			<div class="collapse navbar-collapse" id="navbarMenu">
+				<ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+					<li class="nav-item link-hover-primary">
+						<a class="nav-link active" aria-current="page" href="#">Início</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle link-hover-primary" data-bs-toggle="dropdown"
+						   href="#">Planos</a>
+						<ul class="dropdown-menu dropdown-menu-start">
+							<li><a href="#" class="dropdown-item">Grátis</a></li>
+							<li><a href="#" class="dropdown-item">Pro</a></li>
+							<li><a href="#" class="dropdown-item">Premium</a></li>
+						</ul>
+					</li>
+					<li class="nav-item"><a class="nav-link link-hover-primary" href="#">Preços</a></li>
+					<li class="nav-item"><a class="nav-link link-hover-primary" href="#">Sobre</a></li>
+					<li class="nav-item"><a class="nav-link link-hover-primary" href="#">Contato</a></li>
+				</ul>
 
-        <ul class="navbar-nav ms-auto align-items-center">
+				<ul class="navbar-nav ms-auto align-items-center">
 
-          <!-- Botão de busca (desktop) -->
-          <li class="nav-item d-none d-lg-flex align-items-center ms-3">
-            <div class="collapse collapse-horizontal" id="searchFormDesktop">
-              <div style="width: 250px;">
-                <form class="d-flex align-items-center me-2">
-                  <input class="form-control form-control-sm" type="search" placeholder="Enter para buscar..."
-                         aria-label="Campo de busca">
-                </form>
-              </div>
-            </div>
+					<!-- Botão de busca (desktop) -->
+					<li class="nav-item d-none d-lg-flex align-items-center ms-3">
+						<div class="collapse collapse-horizontal" id="searchFormDesktop">
+							<div style="width: 250px;">
+								<form class="d-flex align-items-center me-2">
+									<input class="form-control form-control-sm" type="search"
+									       placeholder="Enter para buscar..."
+									       aria-label="Campo de busca">
+								</form>
+							</div>
+						</div>
 
-            <button class="btn btn-outline-secondary btn-sm" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#searchFormDesktop"
-                    aria-expanded="false" aria-controls="searchFormDesktop"
-                    aria-label="Abrir busca">
-              <i class="bi bi-search"></i>
-            </button>
-          </li>
+						<button class="btn btn-outline-secondary btn-sm" type="button"
+						        data-bs-toggle="collapse" data-bs-target="#searchFormDesktop"
+						        aria-expanded="false" aria-controls="searchFormDesktop"
+						        aria-label="Abrir busca">
+							<i class="bi bi-search"></i>
+						</button>
+					</li>
 
-          <!-- Botão de busca (mobile) -->
-          <li class="nav-item d-lg-none w-50 mt-2 align-itens-center">
-            <button class="btn btn-outline-secondary align-itens-center w-100 border-0" type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#searchFormMobile" aria-expanded="false" aria-controls="searchFormMobile">
-              Pesquisar
-            </button>
-          </li>
+					<!-- Botão de busca (mobile) -->
+					<li class="nav-item d-lg-none w-50 mt-2 align-itens-center">
+						<button class="btn btn-outline-secondary align-itens-center w-100 border-0" type="button"
+						        data-bs-toggle="collapse"
+						        data-bs-target="#searchFormMobile" aria-expanded="false"
+						        aria-controls="searchFormMobile">
+							Pesquisar
+						</button>
+					</li>
 
-          <!-- Campo de busca (mobile) -->
-          <li class="nav-item w-100 d-lg-none">
-            <div class="collapse mt-2" id="searchFormMobile">
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Buscar...">
-                <button class="btn btn-outline-secondary" type="submit">
-                  <i class="bi bi-search"></i>
-                </button>
-              </form>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Cabeçalho - FIM -->
+					<!-- Campo de busca (mobile) -->
+					<li class="nav-item w-100 d-lg-none">
+						<div class="collapse mt-2" id="searchFormMobile">
+							<form class="d-flex">
+								<input class="form-control me-2" type="search" placeholder="Buscar...">
+								<button class="btn btn-outline-secondary" type="submit">
+									<i class="bi bi-search"></i>
+								</button>
+							</form>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Cabeçalho - FIM -->
 
-  <!--Conteúdo Inicio-->
-  <main>
-    <div class="container">
-      <div class="row">
+	<!--Conteúdo Inicio-->
+	<main class="mx-5">
+
+		<!--Hero-->
+		<section class="hero" id="hero">
+
+			<div class="my-3 container">
+
+				<div class="row align-items-center">
+
+					<div class="col-sm-6">
+
+						<h1 class="display-4 fw-bold">Musica <span class="text-lime-green">+</span> Foco</h1>
+
+						<p class="text-justify">Transforme sua rotina com o poder do som. Descubra trilhas
+							sonoras personalizadas,
+							cientificamente
+							projetadas para otimizar seu foco, aumentar sua produtividade e te ajudar a alcançar um
+							estado de concentração profunda.
+						</p>
+
+						<button class="btn btn-outline-dark button-lime-green btn-lg">Comece Agora!</button>
+
+					</div>
+
+					<div class="col-sm-6 text-center">
+
+						<img src="img/Hero.png" width="430" height="460" class="img-fluid" alt="">
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<hr class="border-2 border-secondary opacity-30 mx-4 my-4" >
+		<!--Características-->
+
+		<hr class="border-2 border-secondary opacity-30 mx-4 my-4">
+		<!--Preços-->
+		<section class="py-5" id="preço">
+			<div class="container">
+
+				<h3 class="mb-4 fw-bold text-center">
+					<i class="bi bi-lightning-charge-fill me-2 text-lime-green"></i>Planos para turbinar seu foco
+				</h3>
+
+				<div class="row justify-content-center g-4">
+
+					<div class="col-12 col-sm-6 col-md-4">
+						<div class="card text-center border-0 shadow rounded-3 p-4 h-100">
+							<div class="icon mb-3"><i class="bi bi-person-lines-fill fs-2"></i></div>
+							<div class="card-body d-flex flex-column"><h4 class="card-title fw-bold">Grátis</h4>
+								<p class="card-text">Comece a aprimorar seu foco! Acesse 3 trilhas sonoras básicas,
+									cuidadosamente desenvolvidas com base na neurociência, e dê o primeiro passo para
+									uma maior produtividade.</p>
+
+								<button class="btn btn-outline-dark button-dark button-plans btn-lg">Experimentar
+									Gratis!
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6 col-md-4">
+						<div class="card text-center border-0 shadow rounded-3 p-4 h-100">
+							<div class="icon mb-3">
+								<i class="bi bi-person-plus-fill fs-2"></i>
+							</div>
+							<div class="card-body d-flex flex-column">
+								<h4 class="card-title fw-bold">Pro</h4>
+								<p class="card-text">Eleve sua concentração! Por apenas <strong>R$
+									19,90/mês</strong>, tenha
+									acesso a
+									trilhas sonoras personalizadas e otimize seu rendimento com recursos avançados para
+									um foco profundo e eficaz.</p>
+								<button class="btn btn-outline-dark button-dark button-plans btn-lg">Fazer Upgrade!
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6 col-md-4">
+						<div class="card text-center border-0 shadow rounded-3 p-4 h-100">
+							<div class="icon mb-3">
+								<i class="bi bi-person-fill-up fs-2"></i>
+							</div>
+							<div class="card-body d-flex flex-column">
+								<h4 class="card-title fw-bold">Premium</h4>
+								<p class="card-text">Desbloqueie seu potencial máximo! Com <strong>R$ 29,90/mês</strong>, aproveite
+									trilhas sonoras ilimitadas e receba relatórios de produtividade para monitorar seu
+									progresso e alcançar o ápice da performance.</p>
+								<button class="btn btn-outline-dark button-dark button-plans btn-lg">Seja Premium!
+								</button>
+							</div>
+						</div>
+					</div>
 
 
-        <div class="col-12 bg-dark col-sm-12 bg-opacity-60 h100"></div>
 
-        <div class="col-12 col-md-4 bg-dark bg-opacity-75 h400"></div>
 
-        <div class="col-12 col-md-4 bg-info bg-opacity-15 h400"></div>
 
-        <div class="col-12 col-md-4 bg-dark bg-opacity-25 h400"></div>
+				</div>
+			</div>
+		</section>
 
-        <div class="col-12 bg-dark col-sm-12 bg-opacity-60 h100"></div>
 
-      </div>
-    </div>
-  </main>
-  <!--Conteúdo FIM-->
+		<!--Depoimentos-->
 
-  <!--Rodapé Inicio-->
-  <footer class="bg-light text-dark pt-5">
-    <div class="container px-3">
-      <div class="row">
-        <div class="col-6 col-lg-4">
-          <a class="" href="#">
-            <img src="img/logo.png" alt="Logo" width="150" height="40" class="d-inline-block align-middle">
-          </a>
-          <p class="pt-3">
-            <a href="https://www.google.com/maps/place/Salvador+Shopping/@-12.9774174,-38.4573364,16.55z/data=!4m6!3m5!1s0x71616510cac211f:0xd5a41097a534a48b!8m2!3d-12.9783503!4d-38.4551934!16s%2Fg%2F121gpt80?entry=ttu&g_ep=EgoyMDI1MDUyNi4wIKXMDSoASAFQAw%3D%3D" class="fs-5 me-1 text-dark"><i class="bi bi-geo-alt link-hover-primary"></i></a>
-            Paralela 234, Salvador-BA, 41820-021</p>
-          <p class="mb-2">
-            <a href="https://api.whatsapp.com/send?phone=5574999206828" class="fs-5 me-1 text-dark"><i
-                    class="bi bi-whatsapp link-hover-primary"></i></a>
-            (71) 914323-3878</p>
-          <p class="mb-2">
-            <a href="#" class="fs-5 me-1 text-dark"><i
-                    class="bi bi-phone link-hover-primary"></i></a>
-            (71) 4323-3878</p>
-        </div>
+	</main>
+	<!--Conteúdo FIM-->
 
-        <div class="col">
-          <h4>Planos</h4>
-          <ul class="list-unstyled pt-2">
-            <li class="py-1"><a href="#" class="text-decoration-none text-dark link-hover-primary">Grátis</a></li>
-            <li class="py-1"><a href="#" class="text-decoration-none text-dark link-hover-primary">Pro</a></li>
-            <li class="py-1"><a href="#" class="text-decoration-none text-dark link-hover-primary">Premium</a></li>
-          </ul>
-        </div>
-        <div class="col">
-          <h4>Categories</h4>
-          <ul class="list-unstyled pt-2">
-            <li class="py-1"><a href="#" class="text-decoration-none text-dark link-hover-primary">Preços</a></li>
-            <li class="py-1"><a href="#" class="text-decoration-none text-dark link-hover-primary">Sobre</a></li>
-            <li class="py-1"><a href="#" class="text-decoration-none text-dark link-hover-primary">Contatos</a></li>
-            <li class="py-1"><a href="#" class="text-decoration-none text-dark link-hover-primary">FAQs</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-lg-3 text-lg-end">
-          <h4>Social Media Links</h4>
-          <div class="social-media pt-2">
-            <a href="#" class="fs-2 me-3 text-dark link-hover-primary"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="fs-2 me-3 text-dark link-hover-primary"><i class="bi bi-pinterest"></i></a>
-            <a href="#" class="fs-2 me-3 text-dark link-hover-primary"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="fs-2 text-dark link-hover-primary"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="d-sm-flex justify-content-between py-1">
-        <p>2025 © Ornan Matos. All Rights Reserved. </p>
-        <p>
-          <a href="#" class="text-light text-decoration-none pe-4">Terms of use</a>
-          <a href="#" class="text-light text-decoration-none"> Privacy policy</a>
-        </p>
-      </div>
-    </div>
-  </footer>
-  <!--Rodapé FIM-->
+	<!--Rodapé Inicio-->
+	<footer class="bg-light text-dark pt-5">
+		<div class="container px-3">
+			<div class="row">
+				<div class="col-6 col-lg-4">
+					<a class="" href="#">
+						<img src="img/logo.png" alt="Logo" width="150" height="40" class="d-inline-block align-middle">
+					</a>
+					<p class="pt-3">
+						<a href="https://www.google.com/maps/place/Salvador+Shopping/@-12.9774174,-38.4573364,16.55z/data=!4m6!3m5!1s0x71616510cac211f:0xd5a41097a534a48b!8m2!3d-12.9783503!4d-38.4551934!16s%2Fg%2F121gpt80?entry=ttu&g_ep=EgoyMDI1MDUyNi4wIKXMDSoASAFQAw%3D%3D"
+						   class="fs-5 me-1 text-dark"><i class="bi bi-geo-alt link-hover-primary"></i></a>
+						Paralela 234, Salvador-BA, 41820-021</p>
+					<p class="mb-2">
+						<a href="https://api.whatsapp.com/send?phone=5574999206828" class="fs-5 me-1 text-dark"><i
+								class="bi bi-whatsapp link-hover-primary"></i></a>
+						(71) 914323-3878</p>
+					<p class="mb-2">
+						<a href="#" class="fs-5 me-1 text-dark"><i
+								class="bi bi-phone link-hover-primary"></i></a>
+						(71) 4323-3878</p>
+				</div>
+
+				<div class="col">
+					<h4>Planos</h4>
+					<ul class="list-unstyled pt-2">
+						<li class="py-1"><a href="#"
+						                    class="text-decoration-none text-dark link-hover-primary">Grátis</a></li>
+						<li class="py-1"><a href="#" class="text-decoration-none text-dark link-hover-primary">Pro</a>
+						</li>
+						<li class="py-1"><a href="#"
+						                    class="text-decoration-none text-dark link-hover-primary">Premium</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h4>Categories</h4>
+					<ul class="list-unstyled pt-2">
+						<li class="py-1"><a href="#"
+						                    class="text-decoration-none text-dark link-hover-primary">Preços</a></li>
+						<li class="py-1"><a href="#" class="text-decoration-none text-dark link-hover-primary">Sobre</a>
+						</li>
+						<li class="py-1"><a href="#"
+						                    class="text-decoration-none text-dark link-hover-primary">Contatos</a></li>
+						<li class="py-1"><a href="#" class="text-decoration-none text-dark link-hover-primary">FAQs</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-6 col-lg-3 text-lg-end">
+					<h4>Social Media Links</h4>
+					<div class="social-media pt-2">
+						<a href="#" class="fs-2 me-3 text-dark link-hover-primary"><i class="bi bi-facebook"></i></a>
+						<a href="#" class="fs-2 me-3 text-dark link-hover-primary"><i class="bi bi-pinterest"></i></a>
+						<a href="#" class="fs-2 me-3 text-dark link-hover-primary"><i class="bi bi-instagram"></i></a>
+						<a href="#" class="fs-2 text-dark link-hover-primary"><i class="bi bi-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="d-sm-flex justify-content-between py-1">
+				<p>2025 © Ornan Matos. All Rights Reserved. </p>
+				<p>
+					<a href="#" class="text-light text-decoration-none pe-4">Terms of use</a>
+					<a href="#" class="text-light text-decoration-none"> Privacy policy</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!--Rodapé FIM-->
 
 
 </body>
