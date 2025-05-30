@@ -15,11 +15,22 @@
 	<!--Javascript Bootstrap - CDN-->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
 	        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-	        crossorigin="anonymous"></script>
+	        crossorigin="anonymous" defer></script>
+
+
+	<!--Javascript JQuery-->
+	<script
+			src="https://code.jquery.com/jquery-3.7.1.min.js"
+			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			crossorigin="anonymous" defer></script>
+
+	<!--Javascript Local-->
+	<script src="js/index.js" defer></script>
 
 	<!--CSS Local-->
 	<link rel="stylesheet" href="css/style.css">
 
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
 	<title>NeuroFocus</title>
 
 </head>
@@ -147,16 +158,86 @@
 
 		</section>
 
-		<hr class="border-2 border-secondary opacity-30 mx-4 my-4" >
+		<hr class="border-2 border-secondary opacity-30 mx-4 my-4">
+
 		<!--Características-->
 
+
+		<section class="py-5" id="caracteristicas">
+			<div class="container">
+
+				<h3 class="mb-4 fw-bold text-center">
+					<i class="bi bi-bookmark-check-fill me-2 text-lime-green"></i>Conheça Nossos Serviços
+				</h3>
+
+				<div class="row justify-content-center g-4">
+
+					<!-- Card 1 -->
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 card_ct">
+						<div class="card h-100">
+							<img src="img/Sec-1/image4.webp" class="card-img-top" alt="">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title my-3">Foco Potencializado pela Ciência</h5>
+								<p class="card-text card_ct">Trilhas sonoras cientificamente embasadas para aprimorar sua
+									concentração e maximizar cada momento de trabalho ou estudo.</p>
+								<a href="#" class="btn btn-primary mt-auto">Leia Mais</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 2 -->
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 card_ct">
+						<div class="card h-100">
+							<img src="img/Sec-1/image3.jpg" class="card-img-top" alt="">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title my-3">Sua Mente, Sua Música</h5>
+								<p class="card-text">Paisagens sonoras personalizadas que se adaptam ao seu cérebro,
+									guiando você a um estado de foco profundo e produtivo durante suas atividades
+									diárias.</p>
+								<a href="#" class="btn btn-primary mt-auto">Leia Mais</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 3 -->
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 card_ct">
+						<div class="card h-100">
+							<img src="img/Sec-1/image1.jpeg" class="card-img-top" alt="">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title my-3">Desbloqueie a Alta Performance</h5>
+								<p class="card-text">Ferramentas avançadas e trilhas ilimitadas desenhadas para elevar
+									sua produtividade a níveis que você nunca imaginou.</p>
+								<a href="#" class="btn btn-primary mt-auto">Leia Mais</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 4 -->
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 card_ct">
+						<div class="card h-100">
+							<img src="img/Sec-1/image2.jpg" class="card-img-top" alt="">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title my-3">Acompanhe Sua Evolução Mental</h5>
+								<p class="card-text">Relatórios de produtividade que revelam seu progresso, ajudando a
+									refinar suas estratégias de foco e alcançar resultados superiores.</p>
+								<a href="#" class="btn btn-primary mt-auto">Leia Mais</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
 		<hr class="border-2 border-secondary opacity-30 mx-4 my-4">
+
 		<!--Preços-->
 		<section class="py-5" id="preço">
 			<div class="container">
 
 				<h3 class="mb-4 fw-bold text-center">
-					<i class="bi bi-lightning-charge-fill me-2 text-lime-green"></i>Planos para turbinar seu foco
+					<i class="bi bi-lightning-charge-fill me-2 text-lime-green"></i>Planos para Turbinar seu Foco
 				</h3>
 
 				<div class="row justify-content-center g-4">
@@ -201,7 +282,8 @@
 							</div>
 							<div class="card-body d-flex flex-column">
 								<h4 class="card-title fw-bold">Premium</h4>
-								<p class="card-text">Desbloqueie seu potencial máximo! Com <strong>R$ 29,90/mês</strong>, aproveite
+								<p class="card-text">Desbloqueie seu potencial máximo! Com <strong>R$ 29,90/mês</strong>,
+									aproveite
 									trilhas sonoras ilimitadas e receba relatórios de produtividade para monitorar seu
 									progresso e alcançar o ápice da performance.</p>
 								<button class="btn btn-outline-dark button-dark button-plans btn-lg">Seja Premium!
@@ -211,15 +293,154 @@
 					</div>
 
 
-
-
-
 				</div>
 			</div>
 		</section>
 
 
+		<hr class="border-2 border-secondary opacity-30 mx-4 my-4">
+
 		<!--Depoimentos-->
+		<section class="py-5" id="depoimentos">
+			<div class="container">
+
+				<h3 class="mb-4 fw-bold text-center">
+					<i class="bi bi-balloon-heart-fill me-2 text-lime-green"></i>Depoimentos
+				</h3>
+
+				<div class="testimonial-slider">
+					<div id="carouselExampleControls" class="carousel carousel-dark" data-bs-ride="carousel">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="testimonial-title">
+										<i class="bi bi-quote display-2 text-lime-green"></i>
+										<h2 class="fw-bold display-6">O que nossos clientes dizem</h2>
+									</div>
+									<button class="carousel-control-prev bg-dark" type="button"
+									        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="visually-hidden">Previous</span>
+									</button>
+									<button class="carousel-control-next bg-dark" type="button"
+									        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="visually-hidden">Next</span>
+									</button>
+								</div>
+								<div class="col-md-8">
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<div class="card">
+												<div class="img-wrapper"><img src="img/Sec-2/pp6.jpg" class="d-block w-100"
+												                              alt="...">
+												</div>
+												<div class="card-body">
+													<h5 class="card-title">Carlos Mendes</h5>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<p class="card-text">"Minha produtividade no trabalho aumentou
+														incrivelmente. As músicas realmente focam a mente.
+														Recomendo!"</p>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="card">
+												<div class="img-wrapper"><img src="img/Sec-2/pp1.jpg"
+												                              class="d-block w-100" alt="..."></div>
+												<div class="card-body">
+													<h5 class="card-title">Rafael Oliveira</h5>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<p class="card-text">"Impressionado com os resultados! As trilhas
+														personalizadas me ajudam a entrar no flow rapidamente."</p>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="card">
+												<div class="img-wrapper"><img src="img/Sec-2/pp2.jpg"
+												                              class="d-block w-100"
+												                              alt="..."></div>
+												<div class="card-body">
+													<h5 class="card-title">Ana Silva</h5>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<p class="card-text">"NeuroFocus mudou meu jeito de estudar! Consigo
+														me concentrar por muito mais tempo com as trilhas."</p>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="card">
+												<div class="img-wrapper"><img src="img/Sec-2/pp3.jpg"
+												                              class="d-block w-100" alt="...">
+												</div>
+												<div class="card-body">
+													<h5 class="card-title">Beatriz Lima</h5>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<p class="card-text">"As trilhas básicas já fazem uma grande
+														diferença no meu dia. Consigo render muito mais!"</p>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="card">
+												<div class="img-wrapper"><img src="img/Sec-2/pp4.jpg"
+												                              class="d-block w-100" alt="...">
+												</div>
+												<div class="card-body">
+													<h5 class="card-title">Luana Matos</h5>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<p class="card-text">"NeuroFocus é essencial! Sinto meu cérebro mais
+														calmo e focado para realizar minhas tarefas diárias."</p>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="card">
+												<div class="img-wrapper"><img src="img/Sec-2/pp5.jpg"
+												                              class="d-block w-100" alt="...">
+												</div>
+												<div class="card-body">
+													<h5 class="card-title">Marina Santos</h5>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<i class="bi bi-star-fill text-warning pe-1"></i>
+													<p class="card-text">"Com NeuroFocus, as distrações somem! Consigo
+														mergulhar nas minhas tarefas e aproveitar ao máximo cada
+														minuto."</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			</div>
+		</section>
+
 
 	</main>
 	<!--Conteúdo FIM-->
