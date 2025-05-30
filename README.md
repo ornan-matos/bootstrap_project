@@ -23,13 +23,12 @@ Este projeto é uma página web responsiva desenvolvida com **Bootstrap 5**, com
 
 *(adicione aqui um print em tela cheia da página)*
 
----
+
 
 ###  Versão Mobile
 
 *(adicione aqui um print da página vista em smartphone)*
 
----
 
 ##  Como Executar Localmente
 
@@ -47,7 +46,7 @@ cd bootstrap_project
 
 3. Abra o arquivo `index.html` com seu navegador preferido.
 
----
+
 
 ## Estrutura de Arquivos
 
@@ -61,13 +60,13 @@ bootstrap_project/
 └── README.md
 ```
 
----
+
 
 ##  Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests com melhorias ou sugestões.
 
----
+
 
 ##  Licença
 
