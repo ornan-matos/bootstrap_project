@@ -1,6 +1,4 @@
 
----
-
 # Bootstrap Project
 
 Este projeto é uma página web responsiva desenvolvida com **Bootstrap 5**, com foco em design moderno, organização visual e compatibilidade com múltiplos dispositivos.
@@ -74,10 +72,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 ##  Licença
 
 Este projeto está sob a licença MIT.
-
-```
-
----
-
-Se quiser, posso gerar uma prévia visual com base na estrutura atual ou ajudar a criar os prints de tela para preencher as seções. Me avise se desejar [personalizar mais o README ou adicionar badges de status do GitHub](f).
-```
