@@ -1,8 +1,8 @@
 
-# Bootstrap Project
+# Bootstrap Project - NeuroFocus
 
 Este projeto é uma página web responsiva desenvolvida com **Bootstrap 5**, com foco em design moderno, organização visual e compatibilidade com múltiplos dispositivos.
-
+# 
 ##  Funcionalidades
 
 -  **Layout totalmente responsivo**: adapta-se perfeitamente a desktops, tablets e celulares.
