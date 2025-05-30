@@ -2,7 +2,6 @@ Claro! Aqui está um modelo de `README.md` para o repositório [ornan-matos/boot
 
 ---
 
-````markdown
 # Bootstrap Project
 
 Este projeto é uma página web responsiva desenvolvida com **Bootstrap 5**, com foco em design moderno, organização visual e compatibilidade com múltiplos dispositivos.
