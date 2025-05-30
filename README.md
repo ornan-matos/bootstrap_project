@@ -26,20 +26,23 @@ Este projeto é uma página web responsiva desenvolvida com **Bootstrap 5**, com
 ##  Prints da Página
 
 ###  Versão Desktop
-
+---
 **Video**
+---
 ![Versão Desktop](/img/Screen_Capture/Clip01.gif)
+---
 **Fulll Caputura**
+---
 ![Versão Desktop](/img/Screen_Capture/01.png)
 
-
 ###  Versão Mobile
-
+---
 **Video**
 ![Versão Desktop](/img/Screen_Capture/Clip02.gif)
+---
 **Fulll Caputura**
+---
 ![Versão Desktop](/img/Screen_Capture/02.png)
-
 
 ---
 
