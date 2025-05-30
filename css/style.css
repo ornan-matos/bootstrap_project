@@ -1,4 +1,8 @@
 
+.text-justify {
+    text-align: justify;
+}
+
 .link-hover-primary:hover {
     color: #73aa06 !important;
 }
@@ -11,6 +15,8 @@
     background-color: #91d114 !important;
     color: #ffffff;
 }
+
+/* Planos */
 .button-plans{
     background-color: #212121;
     color: #ffffff;
@@ -19,12 +25,8 @@
 .button-plans:hover {
     background-color: #454545 !important;
     color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
-.text-justify {
-    text-align: justify;
-}
-
 
 .card .icon {
     font-size: 3rem;
@@ -47,4 +49,42 @@
 .card:hover .icon,
 .card:hover .card-text {
     color: #fff;
+}
+
+/* Características do Produto*/
+.card_ct {
+    margin-top: 2em;
+    padding: 1.5em 0.5em 0.5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card_ct img {
+    width: 80%;
+    border-radius: 0.5em;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.card_ct .card-text {
+    color: gray;
+    font-size: 0.9em;
+
+}
+.card_ct .card-title {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.card_ct .btn {
+    border-radius: 0.5em;
+    background-color: #82bb00;
+    color: #ffffff;
+    padding: 0.5em 1.5em;
+}
+
+.card_ct .btn:hover {
+    background-color: #729d09;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
