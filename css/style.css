@@ -11,9 +11,16 @@
     color: #91d114;
 }
 
+.button-lime-green{
+   background: #f8f9fa;
+    color: #2b2b2b;
+    border: 1px solid rgba(43, 43, 43, 0.38);
+}
 .button-lime-green:hover {
     background-color: #91d114 !important;
     color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #91d114;
 }
 
 /* Planos */
