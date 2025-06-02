@@ -81,4 +81,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 
 ##  Licença
 
-Este projeto está sob a licença MIT.
+Copyright (©) 2025 **Ornan S. C. Matos**. Todos os direitos reservados.
+
+Este software é propriedade de **Ornan S. C. Matos** e é protegido pelas leis de direitos autorais.
+Nenhuma parte deste software pode ser modificada, distribuída ou sublicenciada sem a autorização prévia por escrito do proprietário dos direitos autorais. Para solicitar permissão, entre em contato com **ornanmatos@outlook.com**.
